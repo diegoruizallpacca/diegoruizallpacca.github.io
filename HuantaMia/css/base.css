@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: #0db4be;
+}
+.wrapp{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    display: block;
+    padding: 2rem;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all linear .5s;
+}
+nav a:hover{
+    background: #36cbd4;
+}
+.snav{
+    display: none!important;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    display: block;
+}
+.snav a{
+    padding: 1rem;
+}
+nav li:hover .snav{
+    display: block!important;
+}
+
+/* banner */
+.img100{
+    width: 100%;
+    display: block;
+}
+.banner{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background: #0db4be;
+    padding: 2rem;
+    color: #fff;
+}
+    .footer-content{
+        margin: 0 auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    footer i{
+        font-size: 30px;
+        margin: 0 .5rem 2rem .5rem;
+        color: #fff;
+    }
+    footer i:hover{
+        color: #36cbd4;
+        cursor: pointer;
+    }
+    .foot-tit{
+        font-size: 21px;
+        margin-bottom: .5rem;
+    }
+    .foot-des{
+        /*text-align: justify;*/
+        font-size: 15px;
+    }
+
+/* form */
+footer input, textarea{
+    border: 1px solid #0db4be;
+    padding: .6rem;
+    margin-bottom: .1rem;
+    width: 96%;
+    font-size: 15px;
+}
+footer textarea{
+    height: 80px;
+    resize: none;
+    margin-bottom: .1rem;
+}
+footer .btn{
+    background: #000;
+    width: 100%;
+    cursor: pointer;
+    font-size: 21px;
+    color: #0db4be;
+}
+
+.titulos{
+    font-size: 35px!important;
+    text-align: center;
+    margin: 3rem 0;
+    text-decoration: underline;
+}
+
+/* servicios */
+.service-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.service p{
+    color: #0db4be;
+    font-size: 21px;
+}
+.service span{
+    font-size: 13px;
+    color: #333;
+    margin-bottom: .5rem;
+    display: block;
+}
+.service ul{
+    margin-left: 2rem;
+    margin-bottom: .5rem;
+}
+.service li{
+    font-size: 13px;
+    color: #333;
+}
+.service i{
+    color: #000;
+    margin-bottom: .5rem;
+}
+.service img{
+    display: block;
+    width: 100%;
+}
